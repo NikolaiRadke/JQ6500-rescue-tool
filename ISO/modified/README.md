@@ -16,6 +16,6 @@ Beside this files, if you want to make your own ISO, you need to copy the follow
 
 * **jq6500** -> /minimal_overlay/rootfs/jq6500/  
   The compiled tool.  
-* MusicDownload.iso (16MBit) -> /minimal_overlay/rootfs/jq6500/ISO_16MBit  
-* MusicDownload.iso (32MBit) -> /minimal_overlay/rootfs/jq6500/ISO_32MBit  
+* **MusicDownload.iso** (16MBit) -> /minimal_overlay/rootfs/jq6500/ISO_16MBit  
+* **MusicDownload.iso** (32MBit) -> /minimal_overlay/rootfs/jq6500/ISO_32MBit  
 
