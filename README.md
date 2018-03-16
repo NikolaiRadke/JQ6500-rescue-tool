@@ -20,8 +20,8 @@ There are two common variants: 16MBit und 32MBit. You can recognize your variant
 3. Plug in your JQ6500-16p.
 4. After boot process (max 1 Minute), you can select **1** for **16MBit** or **2** for **16MBit**. Wait until the flashing process is finished. 
 5. Unplug your device.
-6. Reboot to Windows.
-7. Plug in your device again and enjoy the funny Chinese interace :-)
+6. Reboot to Windows by pressing CTRL+ALT+DEL. Yes, reset. Don't forget to boot from Harddisk again...
+7. Plug in your device again and enjoy the funny Chinese interace :-) Congrats, your module is usable again.  
 
 ### Linux
 
