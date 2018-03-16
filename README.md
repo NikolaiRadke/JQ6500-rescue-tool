@@ -18,7 +18,7 @@ There are two common variants: 16MBit und 32MBit. You can recognize your variant
 ### About this repository
 
 JQ6500-rescue-tool is a simple package of  
-* [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov
+* [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov  
   with a small frontend and some small modifications.  
 * [JQ6500 Linux tool](https://chiselapp.com/user/rmax/repository/jq6500/home) from Reinhard Max  
   with small changes for 32MBit support.  
