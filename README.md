@@ -77,3 +77,6 @@ There is a slim and easy library available, written by [James Sleeman](https://g
   
 My first project with the JQ6500-16p. And the reason for this repository. [NOKOlino](https://github.com/NikolaiRadke/NOKOlino), a cuddly small speaking Monster, is quite succesful but there are many makers without Linux knowledge. NOKOlino is to be for everyone, so i made this tool.  
 
+## At last...
+
+You've got ideas? Suggestions? Bug reports? Feel free to contact me and contribute!
