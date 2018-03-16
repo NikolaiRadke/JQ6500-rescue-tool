@@ -8,6 +8,15 @@ Some of the **16MBit** and almost every **32MBit** variant come without the wind
   
 This repository provides all the helpless owners with two tools:  
 * **Linux Users:** A tool to upload a **missing upload tool** or **MP3 files** to your device.  
-* **Windows Users:** A very small **ISO-Image** with a simplified batch script for run the tool above on a **CDROM** or **USB stick**.  
+* **Windows Users:** A very small **ISO-Image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
 
+## The JQ6500-16p module  
+There are two common variants: 16MBit und 32MBit. You can recognize your variant by simply plugging in the module. Does ist hav a **red** LED, it is a **16MBit** module. Is ist a **blue** LED, you've got a **32MBit** module.  
+  
+## Windows
+  
+1. Create a bootable medium. Either **right click** on jq6500_rescue_tool.iso und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
+2. Restart your Computer and boot from Disc (usually bei pressing F11 during startup).
+3. Plug in your JQ6500
+4. After boot process (max 1 Minute), you can select **1**
 
