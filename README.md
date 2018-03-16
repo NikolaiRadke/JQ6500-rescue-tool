@@ -2,7 +2,9 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
-For **JQ6500-16p** owners with no Windows upload software on their device. 
+
+For **JQ6500-16p** owners with no Windows upload software on their device.  
+What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
   
 Some of the **16MBit** and almost every **32MBit** variant come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://chiselapp.com/user/rmax/repository/jq6500/home) - for Linux, but Windows users are still left alone. Until now.  
   
@@ -22,6 +24,25 @@ JQ6500-rescue-tool is a simple package of
   With small changes for 32MBit support  
 * The original MusicDownload.iso, provided by complete JQ6500-16p
   With a patched version for 32MBit modules  
+  
+**Content**
+
+```
+JQ6500-rescue-tool/
+├── ISO/
+|   UEFI/BIOS compatible tool image
+|   └── modified/
+|       Modified files for the standard Minimal Linux Live distribution  
+|
+└── JQ6500_tool/
+    Linux command line tool with source
+    └── JQ6500_iso
+        The missing images for the JQ6500
+        ├── 16MBit/
+        |   ISO for 16Mbit modules (red LED)  
+        └── 32MBit/
+            ISO for 32Mbit modules (blue LED)
+```
 
 ## Windows
 1. You need the prepared ISO-Image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
