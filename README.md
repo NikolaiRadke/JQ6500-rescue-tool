@@ -30,18 +30,18 @@ JQ6500-rescue-tool is a simple package of
 ```
 JQ6500-rescue-tool/
 ├── ISO/
-|   UEFI/BIOS compatible tool image
+|   UEFI/BIOS compatible tool image.
 |   └── modified/
-|       Modified files for the standard Minimal Linux Live distribution  
+|       Modified files for the standard Minimal Linux Live distribution.  
 |
 └── JQ6500_tool/
-    Linux command line tool with source
+    Linux command line tool with source and instructions.  
     └── JQ6500_iso
-        The missing images for the JQ6500
+        The missing images for the JQ6500.
         ├── 16MBit/
-        |   ISO for 16Mbit modules (red LED)  
+        |   ISO for 16Mbit modules (red LED).  
         └── 32MBit/
-            ISO for 32Mbit modules (blue LED)
+            ISO for 32Mbit modules (blue LED).
 ```
 
 ## Windows
