@@ -23,6 +23,8 @@ JQ6500-rescue-tool is a simple package of
 * The original MusicDownload.iso, provided by complete JQ6500-16p
   With a patched version for 32MBit modules  
 
+  
+  
 ## Windows
 1. You need the prepared ISO-Image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
 2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
