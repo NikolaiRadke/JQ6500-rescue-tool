@@ -62,4 +62,18 @@ JQ6500-rescue-tool/
 3. Run   
    `./jq6500 -o -r 0 JQ6500_iso/16Mbit/MusicDownload.iso` for **16 MBit** modules or  
    `./jq6500 -o -r 0 JQ6500_iso/32MBit/MusicDownload.iso` for **32 MBit** modules.  
+   
+This tool can even upload MP3-files to your module. Just type `/jq6500 [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
+
+## Related sites
+
+The JQ6500-16p has it issues, but is very easy to handle with an unbeaten price. If you are interested in other project or in programming the module by yourself, here are some related sites you may be interested in.  
+
+**Arduino library**  
+  
+There is a slim and easy library available, written by [James Sleeman](https://github.com/sleemanj/JQ6500_Serial). He also made a video on how to use the Windows interface - for non-Chinese owner and gives some useful hints for a better hardware handling.  
+
+**NOKOlino**  
+  
+My first project with the JQ6500-16p. And the reason for this repository. [NOKOlino](https://github.com/NikolaiRadke/NOKOlino), a cuddly small speaking Monster, is quite succesful but there are many makers without Linux knowledge. NOKOlino is to be for everyone, so i made this tool.  
 
