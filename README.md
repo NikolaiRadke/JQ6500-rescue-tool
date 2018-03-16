@@ -14,7 +14,7 @@ This repository provides all the helpless owners with two tools:
 There are two common variants: 16MBit und 32MBit. You can recognize your variant by simply plugging in the module. Does ist hav a **red** LED, it is a **16MBit** module. Is ist a **blue** LED, you've got a **32MBit** module.  
   
 ## Windows
-1. You need the prepared ISO-Image from this repository: [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO)  
+1. You need the prepared ISO-Image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
 2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
 3. Restart your Computer and boot from Disc (usually bei pressing F11, F12, DEL or whatever during startup, see your mainboard manual).
 4. Plug in your JQ6500-16p.
@@ -23,6 +23,9 @@ There are two common variants: 16MBit und 32MBit. You can recognize your variant
 7. Reboot to Windows by pressing CTRL+ALT+DEL. Yes, reset. Don't forget to boot from harddisk again...
 8. Plug in your device again and enjoy the funny Chinese interace :-) Congrats, your module is usable again.  
 
-### Linux
-
+## Linux
+1. Create a folder.
+2. Copy the precompiled tool [jq6500](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/JQ6500_tool) and the other files to your folder. It should run on all x86_64 machines. If not, compile it by yourself by typing `make` in a terminal.  
+3. Copy the desired MP3s to your folder.  
+4. Open a terminal in your folder and type `./jq6500 *`Wait. Enjoy.  
 
