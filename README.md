@@ -16,11 +16,11 @@ There are two common variants: 16MBit und 32MBit. You can recognize your variant
 ## Windows
 1. You need the prepared ISO-Image from this repository: [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO)  
 2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
-3. Restart your Computer and boot from Disc (usually bei pressing F11 during startup).
+3. Restart your Computer and boot from Disc (usually bei pressing F11, F12, DEL or whatever during startup, see your mainboard manual).
 4. Plug in your JQ6500-16p.
-5. After boot process (max 1 Minute), you can select **1** for **16MBit** or **2** for **16MBit**. Wait until the flashing process is finished. 
+5. After boot process (max. 1 minute), you can select **1** for **16MBit** or **2** for **16MBit**. Wait until the flashing process is finished. 
 6. Unplug your device.
-7. Reboot to Windows by pressing CTRL+ALT+DEL. Yes, reset. Don't forget to boot from Harddisk again...
+7. Reboot to Windows by pressing CTRL+ALT+DEL. Yes, reset. Don't forget to boot from harddisk again...
 8. Plug in your device again and enjoy the funny Chinese interace :-) Congrats, your module is usable again.  
 
 ### Linux
