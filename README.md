@@ -60,6 +60,6 @@ JQ6500-rescue-tool/
 1. Plug in your device.
 2. In a terminal, enter the `JQ6500_tool` folder.
 3. Run   
-   `./jq6500 -o -r 0 JQ6500_iso/16Mbit/MusicDownload.iso` for **16 MBit** modules or
-   `./jq6500 -o -r 0 JQ6500_iso/32MBit/MusicDownload.iso` for **32 MBit** modules.
+   `./jq6500 -o -r 0 JQ6500_iso/16Mbit/MusicDownload.iso` for **16 MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/32MBit/MusicDownload.iso` for **32 MBit** modules.  
 
