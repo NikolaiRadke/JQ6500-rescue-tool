@@ -10,7 +10,7 @@ Some of the **16MBit** and almost every **32MBit** variant come without the wind
   
 This repository provides all the helpless owners with two tools:  
 * **Linux Users:** A tool to upload a **missing upload tool** or directly upload MP3 files on your device.  
-* **Windows Users:** A very small **ISO-Image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
+* **Windows Users:** A very small **ISO image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
 
 ### Which JQ6500-16p module do i have?
 There are two common variants: 16MBit und 32MBit. You can recognize your variant by simply plugging in the module. Does ist have a **red** LED, it is a **16MBit** module. Is ist a **blue** LED, you've got a **32MBit** module.  
@@ -75,7 +75,7 @@ There is a slim and easy library available, written by [James Sleeman](https://g
 
 **NOKOlino**  
   
-My first project with the JQ6500-16p. And the reason for this repository. [NOKOlino](https://github.com/NikolaiRadke/NOKOlino), a cuddly small speaking Monster, is quite succesful but there are many makers without Linux knowledge. NOKOlino is to be for everyone, so i made this tool.  
+My first project with the JQ6500-16p. And the reason for this repository. [NOKOlino](https://github.com/NikolaiRadke/NOKOlino), a cuddly small speaking monster, is quite succesful but there are many makers without Linux knowledge. NOKOlino is to be for everyone, so i made this tool.  
 
 ## At last...
 
