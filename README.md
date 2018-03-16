@@ -10,7 +10,7 @@ This repository provides all the helpless owners with two tools:
 * **Linux Users:** A tool to upload a **missing upload tool** or **MP3 files** to your device.  
 * **Windows Users:** A very small **ISO-Image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
 
-## Which JQ6500-16p module do i have?
+### Which JQ6500-16p module do i have?
 There are two common variants: 16MBit und 32MBit. You can recognize your variant by simply plugging in the module. Does ist hav a **red** LED, it is a **16MBit** module. Is ist a **blue** LED, you've got a **32MBit** module.  
 
 ### About this repository
