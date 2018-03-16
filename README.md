@@ -9,7 +9,7 @@ What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-too
 Some of the **16MBit** and almost every **32MBit** variant come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://chiselapp.com/user/rmax/repository/jq6500/home) - for Linux, but Windows users are still left alone. Until now.  
   
 This repository provides all the helpless owners with two tools:  
-* **Linux Users:** A tool to upload a **missing upload tool** or **MP3 files** to your device.  
+* **Linux Users:** A tool to upload a **missing upload tool** or directly upload MP3 files on your device.  
 * **Windows Users:** A very small **ISO-Image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
 
 ### Which JQ6500-16p module do i have?
