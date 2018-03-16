@@ -71,7 +71,7 @@ The JQ6500-16p has it issues, but is very easy to handle with an unbeaten price.
 
 **Arduino library**  
   
-There is a slim and easy library available, written by [James Sleeman](https://github.com/sleemanj/JQ6500_Serial). He also made a video on how to use the Windows interface - for non-Chinese owner and gives some useful hints for a better hardware handling.  
+There is a slim and easy library available, written by [James Sleeman](https://github.com/sleemanj/JQ6500_Serial). He also made a video on how to use the Windows interface for non-Chinese owners and gives some useful hints for a better hardware handling.  
 
 **NOKOlino**  
   
