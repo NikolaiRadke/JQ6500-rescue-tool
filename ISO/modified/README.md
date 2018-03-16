@@ -1,4 +1,4 @@
-#Modifications for Minimal Linux Live
+# Modifications for Minimal Linux Live
   
 This folder contains all the files, i modified for the tool image:  
 * **.config** -> /  
