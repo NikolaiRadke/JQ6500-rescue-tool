@@ -15,7 +15,7 @@ There are two common variants: 16MBit und 32MBit. You can recognize your variant
   
 ## Windows
   
-1. Create a bootable medium. Either **right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
+1. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
 2. Restart your Computer and boot from Disc (usually bei pressing F11 during startup).
 3. Plug in your JQ6500-16p.
 4. After boot process (max 1 Minute), you can select **1** for **16MBit** or **2** for **16MBit**. Wait until the flashing process is finished. 
