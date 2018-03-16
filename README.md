@@ -12,7 +12,17 @@ This repository provides all the helpless owners with two tools:
 
 ## Which JQ6500-16p module do i have?
 There are two common variants: 16MBit und 32MBit. You can recognize your variant by simply plugging in the module. Does ist hav a **red** LED, it is a **16MBit** module. Is ist a **blue** LED, you've got a **32MBit** module.  
-  
+
+### About this repository
+
+JQ6500-rescue-tool is a simple package of  
+* [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov
+  With a small frontend and some small modifications  
+* [JQ6500 Linux tool](https://chiselapp.com/user/rmax/repository/jq6500/home) from Reinhard Max  
+  With small changes for 32MBit support  
+* The original MusicDownload.iso, provided by complete JQ6500-16p
+  With a patched version for 32MBit modules  
+
 ## Windows
 1. You need the prepared ISO-Image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
 2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
