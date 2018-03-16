@@ -5,7 +5,7 @@ echo "*** [31mJQ6500 toolkit[0m ***"
 echo
 while true; do
     echo "Looking for a matching MP3-module..."
-    jq6500/jq6500 -l
+    /jq6500/jq6500 -l
     echo
     echo "1...Repair 32MBit Module"
     echo "2...Repair 16Mbit Module"
@@ -14,13 +14,13 @@ while true; do
     echo
     read -p "Choice: " choice
     case "$choice" in
-        1) jq6500/jq6500 -r -o 0 jq6500/ISO_32MBit/MusicDownload.iso
+        1) /jq6500/jq6500 -r -o 0 jq6500/ISO_32MBit/MusicDownload.iso
            echo
            echo "Done."
            echo "Plug in another device. Press any key."
            read
         ;;
-        2) jq6500/jq6500 -r -o 0 jq6500/ISO_16MBit/MusicDownload.iso
+        2) /jq6500/jq6500 -r -o 0 jq6500/ISO_16MBit/MusicDownload.iso
            echo
            echo "Done."
            echo "Plug in another device. Press any key."
@@ -34,7 +34,7 @@ while true; do
     esac
 done
 echo
-echo "Bye! Enter [32m./toolkit[0m to start again."
+echo "Bye! Enter [32m./jq6500/toolkit[0m to start again."
 echo "For German keyboard layout enter [32mloadkeys de[0m"
 echo
 
