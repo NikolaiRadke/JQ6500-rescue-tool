@@ -10,13 +10,19 @@ This repository provides all the helpless owners with two tools:
 * **Linux Users:** A tool to upload a **missing upload tool** or **MP3 files** to your device.  
 * **Windows Users:** A very small **ISO-Image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
 
-## The JQ6500-16p module  
+## Which JQ6500-16p module do i have?
 There are two common variants: 16MBit und 32MBit. You can recognize your variant by simply plugging in the module. Does ist hav a **red** LED, it is a **16MBit** module. Is ist a **blue** LED, you've got a **32MBit** module.  
   
 ## Windows
   
-1. Create a bootable medium. Either **right click** on jq6500_rescue_tool.iso und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
+1. Create a bootable medium. Either **right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
 2. Restart your Computer and boot from Disc (usually bei pressing F11 during startup).
-3. Plug in your JQ6500
-4. After boot process (max 1 Minute), you can select **1**
+3. Plug in your JQ6500-16p.
+4. After boot process (max 1 Minute), you can select **1** for **16MBit** or **2** for **16MBit**. Wait until the flashing process is finished. 
+5. Unplug your device.
+6. Reboot to Windows.
+7. Plug in your device again and enjoy the funny Chinese interace :-)
+
+### Linux
+
 
