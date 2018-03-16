@@ -19,11 +19,11 @@ There are two common variants: 16MBit und 32MBit. You can recognize your variant
 
 JQ6500-rescue-tool is a simple package of  
 * [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov
-  With a small frontend and some small modifications  
+  with a small frontend and some small modifications.  
 * [JQ6500 Linux tool](https://chiselapp.com/user/rmax/repository/jq6500/home) from Reinhard Max  
-  With small changes for 32MBit support  
+  with small changes for 32MBit support.  
 * The original MusicDownload.iso, provided by complete JQ6500-16p
-  With a patched version for 32MBit modules  
+  with a patched version for 32MBit modules.  
   
 **Content**
 
@@ -45,6 +45,7 @@ JQ6500-rescue-tool/
 ```
 
 ## Windows
+
 1. You need the prepared ISO-Image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
 2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
 3. Restart your Computer and boot from Disc (usually bei pressing F11, F12, DEL or whatever during startup, see your mainboard manual).
@@ -55,3 +56,10 @@ JQ6500-rescue-tool/
 8. Plug in your device again and enjoy the funny Chinese interace :-) Congrats, your module is usable again.  
 
 ## Linux
+
+1. Plug in your device.
+2. In a terminal, enter the `JQ6500_tool` folder.
+3. Run   
+   `./jq6500 -o -r 0 JQ6500_iso/16Mbit/MusicDownload.iso` for **16 MBit** modules or
+   `./jq6500 -o -r 0 JQ6500_iso/32MBit/MusicDownload.iso` for **32 MBit** modules.
+
