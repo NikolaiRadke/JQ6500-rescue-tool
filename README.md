@@ -24,8 +24,3 @@ There are two common variants: 16MBit und 32MBit. You can recognize your variant
 8. Plug in your device again and enjoy the funny Chinese interace :-) Congrats, your module is usable again.  
 
 ## Linux
-1. Create a folder.
-2. Copy the precompiled tool [jq6500](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/JQ6500_tool) and the other files to your folder. It should run on all x86_64 machines. If not, compile it by yourself by typing `make` in a terminal.  
-3. Copy the desired MP3s to your folder.  
-4. Open a terminal in your folder and type `./jq6500 *`Wait. Enjoy.  
-
