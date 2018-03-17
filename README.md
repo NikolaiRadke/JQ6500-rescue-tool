@@ -51,9 +51,9 @@ JQ6500-rescue-tool/
 
 ## Windows
 
-1. You need the prepared ISO-Image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
+1. You need the prepared ISO-image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
 2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
-3. Restart your Computer and boot from Disc (usually bei pressing F11, F12, DEL or whatever during startup, see your mainboard manual).
+3. Restart your computer and boot from Disc (usually bei pressing F11, F12, DEL or whatever during startup, see your mainboard manual).
 4. Plug in your JQ6500-16p.
 5. After boot process (max. 1 minute), you can select **1** for **16MBit** or **2** for **32MBit**. Wait until the flashing process is finished. 
 6. Unplug your device.
