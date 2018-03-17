@@ -71,7 +71,7 @@ JQ6500-rescue-tool/
    `./jq6500 -o -r 0 JQ6500_iso/64Mbit/MusicDownload.iso`  for **64MBit** modules or  
    `./jq6500 -o -r 0 JQ6500_iso/128Mbit/MusicDownload.iso` for **128MBit** modules.    
    
-This tool can even upload MP3-files to your module. Just type `/jq6500 [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
+This tool can even upload MP3-files to your module. Just type `./jq6500 [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
 
 ## Related sites
 
