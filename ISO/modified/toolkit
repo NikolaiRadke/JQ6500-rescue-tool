@@ -7,14 +7,17 @@ while true; do
     echo "Looking for a matching MP3-module..."
     /jq6500/jq6500 -l
     echo
-    echo "1...Repair 32MBit Module"
-    echo "2...Repair 16Mbit Module"
-    echo "3...Look again for devices"
-    echo "4...Exit"
+    echo "1...Repair 8MBit module"
+    echo "2...Repair 16Mbit module"
+    echo "3...Repair 32MBit module"
+    echo "4...Repair 64Mbit module"
+    echo "5...Repair 128Mbit module"
+    echo "l...Look for devices again"
+    echo "x...Exit"
     echo
     read -p "Choice: " choice
     case "$choice" in
-        1) /jq6500/jq6500 -r -o 0 jq6500/ISO_32MBit/MusicDownload.iso
+        1) /jq6500/jq6500 -r -o 0 jq6500/ISO_8MBit/MusicDownload.iso
            echo
            echo "Done."
            echo "Plug in another device. Press any key."
@@ -26,9 +29,27 @@ while true; do
            echo "Plug in another device. Press any key."
            read
         ;;
-        3) sleep 3
+        3) /jq6500/jq6500 -r -o 0 jq6500/ISO_32MBit/MusicDownload.iso
+           echo
+           echo "Done."
+           echo "Plug in another device. Press any key."
+           read
         ;;
-        4) break
+        4) /jq6500/jq6500 -r -o 0 jq6500/ISO_64MBit/MusicDownload.iso
+           echo
+           echo "Done."
+           echo "Plug in another device. Press any key."
+           read
+        ;;
+        5) /jq6500/jq6500 -r -o 0 jq6500/ISO_128MBit/MusicDownload.iso
+           echo
+           echo "Done."
+           echo "Plug in another device. Press any key."
+           read
+        ;;
+        l) sleep 3
+        ;;
+        x) break
         ;;
         *) echo "Unknown option."
     esac
