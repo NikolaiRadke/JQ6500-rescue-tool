@@ -12,10 +12,9 @@ This repository provides all the helpless owners with two tools:
 * **Linux Users:** A tool to upload a **missing upload tool** or directly upload MP3 files on your device.  
 * **Windows Users:** A very small **ISO image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
 
-### Which JQ6500-16p module do i have?
-There are two common variants: 16MBit und 32MBit. You can recognize your variant by simply plugging in the module. Does ist have a **red** LED, it is a **16MBit** module. Is ist a **blue** LED, you've got a **32MBit** module.  
+### Which kind of JQ6500-16p module do i have?
 
-### About this repository
+There are two common variants: 16MBit und 32MBit. But there are also 8MBit, 64MBit, and even never-seen-by-myself 128MBit modules. To be sure, take a look at the larger IC on the backside, maybe with a magnifying glass. 16 MBit modules are labeled with *25X16* like 25Q16 or 25L1606E, 32 MBit modules are labeled with *25X32* like *25Q32CS16*, so the numbers after the first 3 characters describe the size: A label beginning with *25X128...* should have 128MBit flash.  
 
 JQ6500-rescue-tool is a simple package of  
 * [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov  
@@ -60,8 +59,11 @@ JQ6500-rescue-tool/
 1. Plug in your device.
 2. In a terminal, enter the `JQ6500_tool` folder.
 3. Run   
-   `./jq6500 -o -r 0 JQ6500_iso/16Mbit/MusicDownload.iso` for **16 MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/32MBit/MusicDownload.iso` for **32 MBit** modules.  
+   `./jq6500 -o -r 0 JQ6500_iso/8Mbit/MusicDownload.iso`   for **8MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/16Mbit/MusicDownload.iso`  for **16MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/32MBit/MusicDownload.iso`  for **32MBit** modules or
+   `./jq6500 -o -r 0 JQ6500_iso/64Mbit/MusicDownload.iso`  for **64MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/128Mbit/MusicDownload.iso` for **128MBit** modules or  .  
    
 This tool can even upload MP3-files to your module. Just type `/jq6500 [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
 
