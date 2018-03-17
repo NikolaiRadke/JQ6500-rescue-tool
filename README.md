@@ -37,15 +37,15 @@ JQ6500-rescue-tool/
     Linux command line tool with source and instructions.  
     └── JQ6500_iso
         The missing images for the JQ6500.
-        ├── 8MBit/
+        ├── ISO_8MBit/
         |   ISO for 8Mbit modules.  
-        ├── 16MBit/
+        ├── ISO_16MBit/
         |   ISO for 16Mbit modules.  
-        ├── 32MBit/
+        ├── ISO_32MBit/
         |   ISO for 32Mbit modules.  
-        ├── 64MBit/
+        ├── ISO_64MBit/
         |   ISO for 64Mbit modules.  
-        └── 128MBit/
+        └── ISO_128MBit/
             ISO for 128Mbit modules.
 ```
 
@@ -65,11 +65,11 @@ JQ6500-rescue-tool/
 1. Plug in your device.
 2. In a terminal, enter the `JQ6500_tool` folder.
 3. Run   
-   `./jq6500 -o -r 0 JQ6500_iso/8Mbit/MusicDownload.iso`   for **8MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/16Mbit/MusicDownload.iso`  for **16MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/32MBit/MusicDownload.iso`  for **32MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/64Mbit/MusicDownload.iso`  for **64MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/128Mbit/MusicDownload.iso` for **128MBit** modules.    
+   `./jq6500 -o -r 0 JQ6500_iso/ISO_8Mbit/MusicDownload.iso`   for **8MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/ISO_16Mbit/MusicDownload.iso`  for **16MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/ISO_32MBit/MusicDownload.iso`  for **32MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/ISO_64Mbit/MusicDownload.iso`  for **64MBit** modules or  
+   `./jq6500 -o -r 0 JQ6500_iso/ISO_128Mbit/MusicDownload.iso` for **128MBit** modules.    
    
 This tool can even upload MP3-files to your module. Just type `./jq6500 [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
 
