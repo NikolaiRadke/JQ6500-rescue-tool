@@ -37,10 +37,16 @@ JQ6500-rescue-tool/
     Linux command line tool with source and instructions.  
     └── JQ6500_iso
         The missing images for the JQ6500.
+        ├── 8MBit/
+        |   ISO for 8Mbit modules.  
         ├── 16MBit/
-        |   ISO for 16Mbit modules (red LED).  
-        └── 32MBit/
-            ISO for 32Mbit modules (blue LED).
+        |   ISO for 16Mbit modules.  
+        ├── 32MBit/
+        |   ISO for 32Mbit modules.  
+        ├── 64MBit/
+        |   ISO for 64Mbit modules.  
+        └── 128MBit/
+            ISO for 128Mbit modules.
 ```
 
 ## Windows
