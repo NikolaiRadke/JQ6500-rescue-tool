@@ -47,7 +47,8 @@ while true; do
            echo "Plug in another device. Press any key."
            read
         ;;
-        l) sleep 3
+        l) echo "Looking..."
+           sleep 3
         ;;
         x) break
         ;;
