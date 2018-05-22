@@ -2,6 +2,7 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
+**Note:** Reinhard Max has released a new version of his jq6500-tool. A new and easier rescue tool will follow soon!  
 
 For **JQ6500-16p** owners with no Windows upload software on their device.  
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
