@@ -67,11 +67,11 @@ JQ6500-rescue-tool/
 1. Plug in your device.
 2. In a terminal, enter the `JQ6500_tool` folder.
 3. Run   
-   `./jq6500 -o -r 0 JQ6500_iso/ISO_8Mbit/MusicDownload.iso`   for **8MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/ISO_16Mbit/MusicDownload.iso`  for **16MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/ISO_32MBit/MusicDownload.iso`  for **32MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/ISO_64Mbit/MusicDownload.iso`  for **64MBit** modules or  
-   `./jq6500 -o -r 0 JQ6500_iso/ISO_128Mbit/MusicDownload.iso` for **128MBit** modules.    
+   `./jq6500 -r -o 0 JQ6500_iso/ISO_8Mbit/MusicDownload.iso`   for **8MBit** modules or  
+   `./jq6500 -r -o 0 JQ6500_iso/ISO_16Mbit/MusicDownload.iso`  for **16MBit** modules or  
+   `./jq6500 -r -o 0 JQ6500_iso/ISO_32MBit/MusicDownload.iso`  for **32MBit** modules or  
+   `./jq6500 -r -o 0 JQ6500_iso/ISO_64Mbit/MusicDownload.iso`  for **64MBit** modules or  
+   `./jq6500 -r -o 0 JQ6500_iso/ISO_128Mbit/MusicDownload.iso` for **128MBit** modules.    
    
 This tool can even upload MP3-files to your module. Just type `./jq6500 [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
 
