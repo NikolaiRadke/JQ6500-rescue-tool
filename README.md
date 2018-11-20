@@ -2,6 +2,7 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
+**20.11.2018** I am looking forward to make a rework in december.  
 **19.10.2018** Sadly, i can't compile a new version. Still working on it.    
 **21.08.2018** Stay tuned! In a couple of days i will release an autodetecting easy-as-pie-version!
 
