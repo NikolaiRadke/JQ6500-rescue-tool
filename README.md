@@ -5,7 +5,7 @@
 **21.11.2018** Added a valueble hint: The tool was compiled for 64Bit-Systems.
 **20.11.2018** I am looking forward to make a rework in december.  
 
-For **JQ6500-16p** owners with no Windows upload software on their device. Right now, it works only on **x86_64** CPUs, a 32Bit version will follow soon.  
+For **JQ6500-16p** owners with no Windows upload software on their device. Right now, it only works on **x86_64** CPUs, a 32Bit version will follow soon.  
 
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
   
