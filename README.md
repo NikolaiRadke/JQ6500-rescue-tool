@@ -2,11 +2,11 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
+**21.11.2018** Added a valueble hint: The tool was compiled for 64Bit-Systems.
 **20.11.2018** I am looking forward to make a rework in december.  
-**19.10.2018** Sadly, i can't compile a new version. Still working on it.    
-**21.08.2018** Stay tuned! In a couple of days i will release an autodetecting easy-as-pie-version!
 
-For **JQ6500-16p** owners with no Windows upload software on their device.  
+For **JQ6500-16p** owners with no Windows upload software on their device. Right now, it works only on **x86_64** CPUs, a 32Bit version will follow soon.  
+
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
   
 Some of the **16MBit** and almost every **32MBit** variant come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://chiselapp.com/user/rmax/repository/jq6500/home) - for Linux, but Windows users are still left alone. Until now.  
@@ -61,7 +61,7 @@ JQ6500-rescue-tool/
 5. After boot process (max. 1 minute), you can select **1** for **16MBit** or **2** for **32MBit**. Wait until the flashing process is finished. 
 6. Unplug your device.
 7. Reboot to Windows by pressing CTRL+ALT+DEL. Yes, reset. Don't forget to boot from harddisk again...
-8. Plug in your device again and enjoy the funny Chinese interace :-) Congrats, your module is usable again.  
+8. Plug in your device again and enjoy the funny Chinese interface :-) Congrats, your module is usable again.  
 
 ## Linux
 
