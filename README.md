@@ -2,7 +2,7 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
-**06.04.2019** I need help. I am unable to compile a new Minimal Live Linux. Every Startup ends with a kernal panic after a while. :-( Has anyone some spare time? i want to update the Linux tool to a newer und much easier version.    
+**06.04.2019** **I need help.** I am unable to compile a new Minimal Live Linux. Every Startup ends with a kernal panic after a while. :-( Has anyone some spare time? i want to update the Linux tool to a newer und much easier version.    
 **21.11.2018** Added a valueble hint: The tool was compiled for 64Bit-Systems.  
 
 For **JQ6500-16p** owners with no Windows upload software on their device. Right now, it only works on **x86_64** CPUs, a 32Bit version will follow soon.  
