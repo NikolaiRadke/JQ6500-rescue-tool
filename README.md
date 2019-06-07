@@ -2,6 +2,7 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
+**07.06.2019** **Hooray**, my whining has been heard. I will release a more user-friendly, 32Bit-runs-on-evey-system-image soon.  
 **06.04.2019** **I need help.** I am unable to compile a new Minimal Live Linux. Every Startup ends with a kernal panic after a while. :-( Has anyone some spare time? i want to update the Linux tool to a newer und much easier version.    
 **21.11.2018** Added a valueble hint: The tool was compiled for 64Bit-Systems.  
 
