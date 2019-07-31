@@ -59,7 +59,7 @@ This tool can even upload MP3-files to your module. Just type `./jq6500 -W [PATH
 
 ## Related sites
 
-The JQ6500-16p has it issues, but is very easy to handle with an unbeaten price. If you are interested in other project or in programming the module by yourself, here are some related sites you may be interested in.  
+The JQ6500-16p has it issues, but is very easy to handle with an unbeaten price. If you are interested in other project or in programing the module by yourself, here are some related sites you may be interested in.  
 
 **Arduino library**  
   
