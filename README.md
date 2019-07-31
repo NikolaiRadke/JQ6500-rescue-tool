@@ -1,17 +1,14 @@
-# JQ6500 rescue tool
+# JQ6500 rescue tool - V1.0
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
-* **20.07.2019** Vaccation is over, new frontend is tested. Now i just have to wait for my fellow helper compiling the image.  
-* **07.06.2019** **Hooray**, my whining has been heard. I will release a more user-friendly, 32Bit-runs-on-evey-system-image soon.  
-* **06.04.2019** **I need help.** I am unable to compile a new Minimal Live Linux. Every Startup ends with a kernal panic after a while. :-( Has anyone some spare time? i want to update the Linux tool to a newer und much easier version.    
-* **21.11.2018** Added a valueble hint: The tool was compiled for 64Bit-Systems.  
+* **31.07.2019** Complete rework. Now ist is ready and easy-to-use for (hopefully) everyone.
 
-For **JQ6500-16p** owners with no Windows upload software on their device. Right now, it only works on **x86_64** CPUs, a 32Bit version will follow soon.  
+For **JQ6500-16p** owners with no Windows upload software on their device. The interface language is English You can even easly change your exitisting interface from Chinese to English with this tool.
 
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
   
-Some of the **16MBit** and almost every **32MBit** variant come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://chiselapp.com/user/rmax/repository/jq6500/home) - for Linux, but Windows users are still left alone. Until now.  
+Some of the **16MBit** and almost every **32MBit** and other variants come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://chiselapp.com/user/rmax/repository/jq6500/home) - for Linux, but Windows users are still left alone. Until now. Reinhard is also responsible for this new ISO rework and made - well... almost everything :-)    
   
 This repository provides all the helpless owners with two tools:  
 * **Linux Users:** A tool to upload a **missing upload tool** or directly upload MP3 files on your device.  
@@ -24,34 +21,20 @@ There are two common variants: 16MBit und 32MBit. But there are also 8MBit, 64MB
 JQ6500-rescue-tool is a simple package of  
 * [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov  
   with a small frontend and some small modifications. It's a very well documented small distribution!    
-* [JQ6500 Linux tool](https://chiselapp.com/user/rmax/repository/jq6500/home) from Reinhard Max  
-  with small changes for 32MBit support. It is beerware... ;-)   
-* The original MusicDownload.iso, provided by complete JQ6500-16p 16Mbit
-  with a patched versions for 8MBit, 32MBit, 64MBit and 128MBit modules.  
+* [JQ6500 Linux tool](https://chiselapp.com/user/rmax/repository/jq6500/home) from Reinhard Max. Very useful.  
+  It is beerware... ;-)   
   
-**Content - old verion. Newer will be released soon.**
+**Content**
 
 ```
 JQ6500-rescue-tool/
 ├── ISO/
-|   UEFI/BIOS compatible tool image.
-|   └── modified/
-|       Modified files for the standard Minimal Linux Live distribution.  
+|   UEFI/BIOS compatible tool image and the Minimal Live Linux bundle extension.  
+|   └── bundle-jq6500/
+|       Minimal Linux Live distribution bundle for JQ6500 support.  
 |
 └── JQ6500_tool/
-    Linux command line tool with source and instructions.  
-    └── JQ6500_iso
-        The missing images for the JQ6500.
-        ├── ISO_8MBit/
-        |   ISO for 8Mbit modules.  
-        ├── ISO_16MBit/
-        |   ISO for 16Mbit modules.  
-        ├── ISO_32MBit/
-        |   ISO for 32Mbit modules.  
-        ├── ISO_64MBit/
-        |   ISO for 64Mbit modules.  
-        └── ISO_128MBit/
-            ISO for 128Mbit modules.
+    Linux command line tool source.  
 ```
 
 ## Windows
@@ -60,23 +43,19 @@ JQ6500-rescue-tool/
 2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
 3. Restart your computer and boot from Disc (usually bei pressing F11, F12, DEL or whatever during startup, see your mainboard manual).
 4. Plug in your JQ6500-16p.
-5. After boot process (max. 1 minute), you can select **1** for **16MBit** or **2** for **32MBit**. Wait until the flashing process is finished. 
+5. After boot process (max. 1 minute), select **r**. Wait until the flashing process is finished. 
 6. Unplug your device.
 7. Reboot to Windows by pressing CTRL+ALT+DEL. Yes, reset. Don't forget to boot from harddisk again...
-8. Plug in your device again and enjoy the funny Chinese interface :-) Congrats, your module is usable again.  
+8. Plug in your device again and enjoy Windows interface :-) Congrats, your module is usable again and speaks a bit more western language.  
 
 ## Linux
 
-1. Plug in your device.
-2. In a terminal, enter the `JQ6500_tool` folder.
-3. Run   
-   `./jq6500 -r -o 0 JQ6500_iso/ISO_8Mbit/MusicDownload.iso`   for **8MBit** modules or  
-   `./jq6500 -r -o 0 JQ6500_iso/ISO_16Mbit/MusicDownload.iso`  for **16MBit** modules or  
-   `./jq6500 -r -o 0 JQ6500_iso/ISO_32MBit/MusicDownload.iso`  for **32MBit** modules or  
-   `./jq6500 -r -o 0 JQ6500_iso/ISO_64Mbit/MusicDownload.iso`  for **64MBit** modules or  
-   `./jq6500 -r -o 0 JQ6500_iso/ISO_128Mbit/MusicDownload.iso` for **128MBit** modules.    
+1. Compile the source file *jq6500.c* by typing `Make`. Or, if you encounter some errors, type `gcc jq6500.c -o jq6500`
+2. Plug in your device.
+3. In a terminal, enter the `JQ6500` folder.
+4. Run `./jq6500 -X` to fix your module.    
    
-This tool can even upload MP3-files to your module. Just type `./jq6500 [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
+This tool can even upload MP3-files to your module. Just type `./jq6500 -W [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
 
 ## Related sites
 
