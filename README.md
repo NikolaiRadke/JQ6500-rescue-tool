@@ -59,7 +59,11 @@ Congrats, your module is usable again and speaks a bit more western language.
    
 This tool can even upload MP3-files to your module. Just type `./jq6500 -W [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
 
-## Related sites
+## How to use the tool with Windows running VMWare  
+  
+[Luca Dentella] made a tutorial video. Note that he's using the old version of my tool, so instead of selecting your device, just press **r** to repair it.  
+
+# Related sites
 
 The JQ6500-16p has it issues, but is very easy to handle for an unbeaten price. If you are interested in other project or in programing the module by yourself, here are some related sites you may be interested in.  
 
