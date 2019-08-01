@@ -2,7 +2,7 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
-**31.07.2019** Complete rework. Now ist is ready and easy-to-use for (hopefully) everyone.
+**31.07.2019** Complete rework. Now it is ready and easy-to-use for (hopefully) everyone.
 
 For **JQ6500-16p** owners with no Windows upload software on their device. The interface language is English. You can even easily change your exitisting interface from Chinese to English with this tool.
 
