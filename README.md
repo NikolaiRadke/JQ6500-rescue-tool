@@ -61,7 +61,7 @@ This tool can even upload MP3-files to your module. Just type `./jq6500 -W [PATH
 
 ## How to use the tool with Windows running VMWare  
   
-Luca Dentella made a [tutorial](http://www.lucadentella.it/en/2018/04/11/recuperiamo-un-modulo-jq6500). Note that he's using the old version of my tool, so instead of selecting your device, just press **r** to repair it. There's even a [video](https://www.youtube.com/watch?v=9h_RWsfRnY4).  
+[Luca Dentella](https://www.lucadentella.it) made a [tutorial](http://www.lucadentella.it/en/2018/04/11/recuperiamo-un-modulo-jq6500). Note that he's using the old version of my tool, so instead of selecting your device, just press **r** to repair it. There's even a [video](https://www.youtube.com/watch?v=9h_RWsfRnY4).  
 
 # Related sites
 
