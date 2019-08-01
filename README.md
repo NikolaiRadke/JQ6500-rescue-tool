@@ -4,7 +4,7 @@
   
 **31.07.2019** Complete rework. Now ist is ready and easy-to-use for (hopefully) everyone.
 
-For **JQ6500-16p** owners with no Windows upload software on their device. The interface language is English You can even easly change your exitisting interface from Chinese to English with this tool.
+For **JQ6500-16p** owners with no Windows upload software on their device. The interface language is English. You can even easily change your exitisting interface from Chinese to English with this tool.
 
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
   
@@ -12,7 +12,7 @@ Some of the **16MBit** and almost every **32MBit** and other variants come witho
   
 This repository provides all the helpless owners with two tools:  
 * **Linux Users:** A tool to upload a **missing upload tool** or directly upload MP3 files on your device.  
-* **Windows Users:** A very small **ISO image** with a simplified batch script for run the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
+* **Windows Users:** A very small **ISO image** with a simplified batch script for running the tool above on a **CDROM/DVD** or **USB stick**. It supports both UEFI and BIOS.   
 
 ### Which kind of JQ6500-16p module do i have?
 
@@ -37,18 +37,20 @@ JQ6500-rescue-tool/
     Linux command line tool source.  
 ```
 
-## Windows
+## How to use the tool with Windows
 
 1. You need the prepared ISO-image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
-2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**.
-3. Restart your computer and boot from Disc (usually bei pressing F11, F12, DEL or whatever during startup, see your mainboard manual).
+2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**. It is also possible to boot from an USB stick. There a several tools like [Unetbootin](https://unetbootin.github.io).  
+3. Restart your computer and boot from disc or stick (usually bei pressing Enter, F11, F12, DEL or whatever during startup, see your mainboard manual).
 4. Plug in your JQ6500-16p.
 5. After boot process (max. 1 minute), select **r**. Wait until the flashing process is finished. 
-6. Unplug your device.
+6. Done. Unplug your rescued device.
 7. Reboot to Windows by pressing CTRL+ALT+DEL. Yes, reset. Don't forget to boot from harddisk again...
-8. Plug in your device again and enjoy Windows interface :-) Congrats, your module is usable again and speaks a bit more western language.  
+8. Plug in your device again and enjoy your fresh Windows interface :-).  
+  
+Congrats, your module is usable again and speaks a bit more western language.  
 
-## Linux
+## How to use the tool with Linux
 
 1. Compile the source file *jq6500.c* by typing `Make`. Or, if you encounter some errors, type `gcc jq6500.c -o jq6500`
 2. Plug in your device.
@@ -59,7 +61,7 @@ This tool can even upload MP3-files to your module. Just type `./jq6500 -W [PATH
 
 ## Related sites
 
-The JQ6500-16p has it issues, but is very easy to handle with an unbeaten price. If you are interested in other project or in programing the module by yourself, here are some related sites you may be interested in.  
+The JQ6500-16p has it issues, but is very easy to handle for an unbeaten price. If you are interested in other project or in programing the module by yourself, here are some related sites you may be interested in.  
 
 **Arduino library**  
   
