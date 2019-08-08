@@ -8,7 +8,7 @@ For **JQ6500-16p** owners with no Windows upload software on their device. The i
 
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
   
-Some of the **16MBit** and almost every **32MBit** and other variants come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://chiselapp.com/user/rmax/repository/jq6500/home) - for Linux, but Windows users are still left alone. Until now. Reinhard is also responsible for this new ISO rework and made - well... almost everything :-)    
+Some of the **16MBit** and almost every **32MBit** and other variants come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://m4x.de/jq6500) - for Linux, but Windows users are still left alone. Until now. Reinhard is also responsible for this new ISO rework and made - well... almost everything :-)    
   
 This repository provides all the helpless owners with two tools:  
 * **Linux Users:** A tool to upload a **missing upload tool** or directly upload MP3 files on your device.  
@@ -21,7 +21,7 @@ There are two common variants: 16MBit und 32MBit. But there are also 8MBit, 64MB
 JQ6500-rescue-tool is a simple package of  
 * [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov,  
   with a small frontend and some small modifications. It's a very well documented small distribution!    
-* [JQ6500 Linux tool](https://chiselapp.com/user/rmax/repository/jq6500/home) from Reinhard Max. Very useful.  
+* [JQ6500 Linux tool](https://m4x.de/jq6500) from Reinhard Max. Very useful.  
   It is beerware... ;-)   
   
 **Content**
@@ -52,7 +52,7 @@ Congrats, your module is usable again and speaks a bit more western language.
 
 ## How to use the tool with Linux
 
-1. Compile the source file *jq6500.c* by typing `Make`. Or, if you encounter some errors, type `gcc jq6500.c -o jq6500`
+1. Compile the source file *jq6500.c* by typing `make`. Or, if you encounter some errors, type `gcc jq6500.c -o jq6500`
 2. Plug in your device.
 3. In a terminal, enter the `JQ6500` folder.
 4. Run `./jq6500 -X` to fix your module.    
