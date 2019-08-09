@@ -52,7 +52,7 @@ Congrats, your module is usable again and speaks a bit more western language.
 
 ## How to use the tool with Linux
 
-1. Compile the source file *jq6500.c* by typing `make`. Or, if you encounter some errors, type `gcc jq6500.c -o jq6500`
+1. Compile and link the source files by typing `make`. If it fails, check if it's dependencies are installed: *make, gcc, glibc-devel and either mkisofs or xorriso*. Note that this packages may have their own dependencies.  
 2. Plug in your device.
 3. In a terminal, enter the `JQ6500` folder.
 4. Run `./jq6500 -X` to fix your module.    
