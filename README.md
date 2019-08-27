@@ -1,8 +1,6 @@
 # JQ6500 rescue tool - V1.1
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
-  
-**31.07.2019** Complete rework. Now it is ready and easy-to-use for (hopefully) everyone.
 
 For **JQ6500-16p** owners with no Windows upload software on their device. It is an 32 Bit ISO-file with a Linux system which should boot on almost every PC to install a new or missing interface upon your JQ6500-16p. The interface language is English. You can even easily change your exitisting interface from Chinese to English with this tool.
 
