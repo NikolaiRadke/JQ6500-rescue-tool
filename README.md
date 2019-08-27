@@ -35,6 +35,8 @@ JQ6500-rescue-tool/
 |
 └── JQ6500_tool/
     Linux command line tool source.  
+    └── isoroot/
+        Needed files for the iso image for your module.  
 ```
 
 ## How to use the tool with Windows
