@@ -671,8 +671,7 @@ main(int argc, char **argv)
 	    errx(1, "No options allowed in resue write mode (-X).");
 	}
 	if (rescue_start == NULL) {
-	    errx(1, "This binary has no embedded ISO image.\n"
-		 "Please specify a file or use 'jq6500rescue'.");
+	    errx(1, "This binary has no embedded ISO image.");
 	}
 
 	size = rescue_end - rescue_start;
