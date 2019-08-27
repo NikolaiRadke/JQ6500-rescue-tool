@@ -1,4 +1,4 @@
-# JQ6500 rescue tool - V1.0
+# JQ6500 rescue tool - V1.1
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png)  
   
