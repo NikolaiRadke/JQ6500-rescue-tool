@@ -7,6 +7,7 @@ The following people helped me to bring this (hopefully) usefull tool to life:
 * **carlosmojopicon** - bugfixes.  
 * **DDDanny** - bugfixes.  
 * **"Nickneck"** - translating the JQ6500 upload interface from Chinese to English.  
+* **"feldon30"** - for testing - and failing with Unetbootin. Now Rufus is the recommended tool.  
 
 Used Ressources:
 
