@@ -40,7 +40,7 @@ JQ6500-rescue-tool/
 ## How to use the tool with Windows
 
 1. You need the prepared ISO-image from this repository from here [jq6500_rescue_tool.iso](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/ISO).  
-2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**. It is also possible to boot from an USB stick. There a several tools like [Unetbootin](https://unetbootin.github.io).  
+2. Create a bootable medium. **Right click** on *jq6500_rescue_tool.iso* und select **Burn disc image**, insert a blank CDROM oder DVD and press **Burn**. It is also possible to boot from an USB stick. There a several tools like [Rufus](https://rufus.ie/). Note that you need to choose **DD image mode**! Also note theat **Unetbootin** is **not** working!  
 3. Restart your computer and boot from disc or stick (usually bei pressing Enter, F11, F12, DEL or whatever during startup, see your mainboard manual).
 4. Plug in your JQ6500-16p.
 5. After boot process (max. 1 minute), select **r**. Wait until the flashing process is finished. 
