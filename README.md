@@ -2,7 +2,7 @@
   
 ![JQ6500-16p](https://www.nikolairadke.de/NOKOlino/mp3modul.png) 
 
-For **JQ6500-16p** owners with no Windows upload software on their device. It is an 32 Bit ISO-file with a Linux system which should boot on almost every PC to install a new or missing interface upon your JQ6500-16p. The interface language is English. You can even easily change your exitisting interface from Chinese to English with this tool.
+For **JQ6500-16p** owners with no Windows upload software on their device. It is an 32 Bit ISO-file with a Linux system which should boot on almost every PC to install a new or missing interface upon your JQ6500-16p. It runs perfekt on [Virtualbox](https://www.virtualbox.org). The interface language for your module is English. You can also easily change your exitisting interface from Chinese to English with this tool.
 
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
 
