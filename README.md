@@ -7,7 +7,7 @@ For **JQ6500-16p** owners with no Windows upload software on their device. It is
 What's new? See the [newsblog](https://github.com/NikolaiRadke/JQ6500-rescue-tool/tree/master/NEWS.md). 
 
 ![Screenshot](https://www.nikolairadke.de/jq6500/jq6500rescue.png)
-![Uploader1)(https://www.nikolairadke.de/jq6500/jq6500_uploader1.png)![Uploader2)(https://www.nikolairadke.de/jq6500/jq6500_uploader2.png)
+![Uploader1](https://www.nikolairadke.de/jq6500/jq6500_uploader1.png)![Uploader2](https://www.nikolairadke.de/jq6500/jq6500_uploader2.png)
 
   
 Some of the **16MBit** and almost every **32MBit** and other variants come without the windows upload tool, that autostarts, when you plug in the device, makes them, espacially for Windows users, almost useless. Luckily, there ist an existing tool written by [Reinhard Max](https://m4x.de/jq6500) - for Linux, but Windows users are still left alone. Until now. Reinhard is also responsible for this new ISO rework and made - well... almost everything :-)    
