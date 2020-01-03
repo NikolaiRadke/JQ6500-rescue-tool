@@ -1,7 +1,7 @@
 # Newsblog
 
 ## 2020
-* **03.01.2020** Added a screenshot. People love screenshots!  
+* **03.01.2020** Added screenshots. People love screenshots!  
 * **02.01.2020** Tested the tool with Virtualbos. Works great.  
 
 ## 2019
