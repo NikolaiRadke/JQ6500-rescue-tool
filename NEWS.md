@@ -1,5 +1,8 @@
 # Newsblog
 
+## 2020
+* **03.01.2020** Added a screenshot. People love screenshots!  
+
 ## 2019
 * **03.12.2019** Now Rufus is the recommended copying tool.  
 * **27.08.2019** New linux upload and repair tool. The make command now works with Debian/Ubuntu/Mint. New **V1.1** release.    
