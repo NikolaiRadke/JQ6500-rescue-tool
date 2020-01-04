@@ -71,7 +71,7 @@ I've tested the tool with [Virtualbox](https://www.virtualbox.org). Runs great!
 
 # Related sites
 
-The JQ6500-16p has it issues, but is very easy to handle for an unbeaten price. If you are interested in other project or in programing the module by yourself, here are some related sites you may be interested in.  
+The JQ6500-16p has it issues, but is very easy to handle for an unbeaten price. If you are interested in other projects or in programing the module by yourself, here are some related sites you may be interested in.  
 
 **Arduino library**  
   
