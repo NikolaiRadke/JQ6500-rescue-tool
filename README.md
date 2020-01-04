@@ -22,7 +22,6 @@ There are two common variants: 16MBit und 32MBit. But there are also 8MBit, 64MB
 
 JQ6500-rescue-tool is a simple package of  
 * [Minimal Linux Live](http://minimal.linux-bg.org/#home) *(28-Jan-2018)* from Ivan Davidov,  
-  
   with a small frontend and some small modifications. It's a very well documented small distribution!    
 * [JQ6500 Linux tool](https://m4x.de/jq6500) *(292a7e5a71)* from Reinhard Max. Very useful.  
   It is beerware... ;-)   
