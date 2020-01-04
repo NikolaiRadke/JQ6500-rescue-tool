@@ -18,7 +18,7 @@ This repository provides all the helpless owners with two tools:
 
 ### Which kind of JQ6500-16p module do I have?
 
-There are two common variants: 16MBit und 32MBit. But there are also 8MBit, 64MBit, and even never-seen-by-myself 128MBit modules. To be sure, take a look at the larger IC on the backside, maybe with a magnifying glass. 16 MBit modules are labeled with *25X16* like 25Q16 or 25L1606E, 32 MBit modules are labeled with *25X32* like *25Q32CS16*, so the numbers after the first 3 characters describe the size: A label beginning with *25X128...* should have 128MBit flash. BTW: *25* means *Serial Flash*.   
+There are two common variants: 16MBit und 32MBit. But there are also 8MBit, 64MBit, and even never-seen-by-myself 128MBit modules. To be sure, take a look at the larger IC on the backside, maybe with a magnifying glass. 16MBit modules are labeled with *25X16* like 25Q16 or 25L1606E, 32MBit modules are labeled with *25X32* like *25Q32CS16*, so the numbers after the first 3 characters describe the size: A label beginning with *25X128...* should have 128MBit flash. BTW: *25* means *Serial Flash*.   
 
 JQ6500-rescue-tool is a simple package of  
 * [Minimal Linux Live](http://minimal.linux-bg.org/#home) *(28-Jan-2018)* from Ivan Davidov,  
