@@ -2,7 +2,7 @@
 
 ## 2020
 * **03.01.2020** Added screenshots. People love screenshots!  
-* **02.01.2020** Tested the tool with Virtualbos. Works great.  
+* **02.01.2020** Tested the tool with Virtualbox. Works great.  
 
 ## 2019
 * **03.12.2019** Now Rufus is the recommended copying tool.  
