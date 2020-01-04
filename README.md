@@ -21,9 +21,10 @@ This repository provides all the helpless owners with two tools:
 There are two common variants: 16MBit und 32MBit. But there are also 8MBit, 64MBit, and even never-seen-by-myself 128MBit modules. To be sure, take a look at the larger IC on the backside, maybe with a magnifying glass. 16 MBit modules are labeled with *25X16* like 25Q16 or 25L1606E, 32 MBit modules are labeled with *25X32* like *25Q32CS16*, so the numbers after the first 3 characters describe the size: A label beginning with *25X128...* should have 128MBit flash. BTW: *25* means *Serial Flash*.   
 
 JQ6500-rescue-tool is a simple package of  
-* [Minimal Linux Live](http://minimal.linux-bg.org/#home) from Ivan Davidov,  
+* [Minimal Linux Live](http://minimal.linux-bg.org/#home) *(28-Jan-2018)* from Ivan Davidov,  
+  
   with a small frontend and some small modifications. It's a very well documented small distribution!    
-* [JQ6500 Linux tool](https://m4x.de/jq6500) from Reinhard Max. Very useful.  
+* [JQ6500 Linux tool](https://m4x.de/jq6500) *(292a7e5a71)* from Reinhard Max. Very useful.  
   It is beerware... ;-)   
   
 **Content**
