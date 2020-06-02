@@ -77,9 +77,9 @@ The JQ6500-16p has it issues, but is very easy to handle for an unbeaten price. 
   
 There is a slim and easy library available, written by [James Sleeman](https://github.com/sleemanj/JQ6500_Serial). He also made a video on how to use the Windows interface for non-Chinese owners and gives some useful hints for a better hardware handling.  
 
-**NOKOlino**  
+**Nokolino**  
   
-My first project with the JQ6500-16p. And the reason for this repository. [NOKOlino](https://github.com/NikolaiRadke/NOKOlino_2), a cuddly small speaking monster, is quite successful but there are many makers without Linux knowledge. NOKOlino is to be for everyone, so I made this tool.  
+My first project with the JQ6500-16p. And the reason for this repository. [Nokolino](https://github.com/NikolaiRadke/NOKOlino_2), a cuddly small speaking monster, is quite successful but there are many makers without Linux knowledge. Nokolino is to be for everyone, so I made this tool.  
 
 ## At last...
 
