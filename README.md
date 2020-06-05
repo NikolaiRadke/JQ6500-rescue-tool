@@ -79,7 +79,7 @@ There is a slim and easy library available, written by [James Sleeman](https://g
 
 **Nokolino**  
   
-My first project with the JQ6500-16p. And the reason for this repository. [Nokolino](https://github.com/NikolaiRadke/NOKOlino_2), a cuddly small speaking monster, is quite successful but there are many makers without Linux knowledge. Nokolino is to be for everyone, so I made this tool.  
+My first project with the JQ6500-16p. And the reason for this repository. [Nokolino](https://github.com/NikolaiRadke/Nokolino_pcb), a cuddly small speaking monster, is quite successful but there are many makers without Linux knowledge. Nokolino is to be for everyone, so I made this tool.  
 
 ## At last...
 
