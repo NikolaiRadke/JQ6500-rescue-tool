@@ -71,7 +71,7 @@ I've tested the tool with [Virtualbox](https://www.virtualbox.org). Runs great!
 
 ## How to upgrade your JQ6500 module with more Flash  
   
-You can replace the Winbond **25Q16JVSIQ** with 16 MBit or the **25Q31JVSIQ** with 32 Mbit SPI flash chip with a larger model, the **25Q64JVSIQ** or the largest **25Q128JVSIQ**. Desolder your old one and replace it with the bigger one. You need SMD soldering skills. Then reinstall the interface with `./jq6500 -X`. 
+You can replace the Winbond 25Q16JVSIQ with 16MBit or the 25Q31JVSIQ with 32Mbit SPI flash chip with a larger model, the **25Q64JVSIQ** or the largest **25Q128JVSIQ**. Desolder your old one and replace it with the bigger one. You need SMD soldering skills. Then reinstall the interface with `./jq6500 -X`. 
 
 # Related sites
 
