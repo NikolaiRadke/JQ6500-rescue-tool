@@ -1,6 +1,7 @@
 # Newsblog
 
 ## 2020
+* **08.09.2020** Added hints on how to increase the flash memory.  
 * **03.01.2020** Added screenshots. People love screenshots!  
 * **02.01.2020** Tested the tool with Virtualbox. Works great.  
 
