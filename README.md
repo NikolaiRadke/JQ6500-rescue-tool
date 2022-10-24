@@ -63,7 +63,7 @@ Congrats, your module is usable again and speaks a bit more western language.
    
 This tool can even upload MP3-files to your module. Just type `./jq6500 -W [PATH_TO_YOUR_FOLDER]/*` This will upload all files in the given folder. Very handy!  
 
-## How to use the tool with Windows running VMWare or Virtualbox  
+## How to use the tool with Windows running VMware or Virtualbox  
   
 [Luca Dentella](https://www.lucadentella.it) made a [tutorial](http://www.lucadentella.it/en/2018/04/11/recuperiamo-un-modulo-jq6500). Note that he's using the old version of my tool, so instead of selecting your device, just press **r** to repair it. There's even a [video](https://www.youtube.com/watch?v=9h_RWsfRnY4).  
   
